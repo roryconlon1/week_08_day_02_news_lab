@@ -7,7 +7,7 @@ const StoriesListItem = ({story}) => {
     // }
 
     return(
-        <div>
+        <div className="list">
             <li>
                 {story.title}
             </li>

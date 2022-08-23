@@ -13,4 +13,9 @@ code {
 }
 .App {
   background-color: burlywood;
+  list-style: none;
+}
+
+.list {
+  list-style: none;
 }

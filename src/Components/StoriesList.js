@@ -10,7 +10,7 @@ const StoriesList = ({ storyDetails ,showStory}) => {
 
     
     return(
-        <div>
+        <div className="list">
             <h3>Items:</h3>
             <ul>
                 {handleStory}
