@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
@@ -14,8 +15,34 @@ code {
 .App {
   background-color: burlywood;
   list-style: none;
+  justify-content: space-between;
 }
 
-.list {
+.list-individual {
   list-style: none;
+  padding: 1%;
 }
+
+.link {
+  justify-content: end;
+  padding: 1.5%;
+}
+
+.link:hover {
+  color: coral;
+  text-decoration: underline;
+}
+
+.link:visited {
+  color: dimgray;
+}
+
+.link:link {
+  text-decoration: none;
+}
+
+
+.searchbaer {
+  background-color: aqua;
+}
+

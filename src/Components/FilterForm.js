@@ -11,8 +11,7 @@ const FilterForm = ({handleFilterChange}) => {
 
     return(
         <form>
-            <input type="text" onChange={handleTextChange} value={text}></input>
-            <button >Search</button>
+            <input className="searchbar" type="text" onChange={handleTextChange} value={text}></input>
         </form>
     )
 }
